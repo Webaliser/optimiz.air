@@ -1,0 +1,8 @@
+* { -webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;-moz-background-clip: padding-box !important;-webkit-background-clip: padding-box !important;background-clip: padding-box !important;}
+html, body {margin:0; padding:0; width:100%; height:100%; font-family: monospace;}
+
+.blk {margin:0 auto;width:100%;max-width:600px;padding-left:30px;padding-right:30px;}
+.t-c {text-align:center;}
+#dragcont {cursor:pointer;display:flex;justify-content:center;align-items:center;background-color:#eee;height:250px;font-size:20px;text-align:center;text-transform:uppercase;border:2px solid #ddd;}
+.inpFile {position:fixed;top:-10000px;left:-10000px;}
+#log {padding:30px;}
